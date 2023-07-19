@@ -22,10 +22,10 @@ public class GameOverPanel extends JPanel{
 		
 		if(winner == 'N') {
 			g.setFont(new Font("Ink Free", Font.BOLD, 40));
-			g.drawString("mitte keegi ei võitnud", 100, 300);
+			g.drawString("mitte keegi ei võitnud!", 100, 300);
 		} else {
 			g.setFont(new Font("Ink Free", Font.BOLD, 75));
-			g.drawString(winner + " Võitis", 160, 300);
+			g.drawString(winner + " Võitis!", 160, 300);
 		}
 		
 	}
